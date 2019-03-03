@@ -1,5 +1,5 @@
 %%
-%路径可视化
+%脗路戮露驴脡脢脫禄炉
 function DisplayRoute(V, City, n)
     clf;
     set(gca,'box','on')
@@ -15,7 +15,7 @@ function DisplayRoute(V, City, n)
     end
     
     plot(tmp(:, 1), tmp(:, 2), '-r');
-    plot([tmp(1, 1), tmp(n, 1)], [tmp(1, 1), tmp(n, 2)], '-r');
+    plot([tmp(1, 1), tmp(n, 1)], [tmp(1, 2), tmp(n, 2)], '-r');
     plot(City(:, 1), City(:, 2), 'b.', 'MarkerSize',15);
     hold off
 end
